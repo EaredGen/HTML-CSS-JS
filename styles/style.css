@@ -1,0 +1,28 @@
+.header{
+    margin: 0 auto;
+    max-width: 1167px;
+    position: relative;
+}
+
+.clock{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navigation{
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    list-style-type: none;
+}
+
+.navigation>li>a{
+    text-decoration: none;
+    color: #be8e3b;
+}
+
+.navigation>li{
+    padding-left: 90px;
+    margin-left: 10px;
+}
