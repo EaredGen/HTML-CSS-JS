@@ -12,7 +12,7 @@
 
 .navigation{
     position: absolute;
-    bottom: 0%;
+    bottom: 281px;
     display: flex;
     list-style-type: none;
 }
@@ -25,4 +25,61 @@
 .navigation>li{
     padding-left: 90px;
     margin-left: 10px;
+}
+
+.scrollPictures{
+    width: 1137px;
+    height: 282px;
+    position: relative;
+    bottom: 325px;
+    left: 9px;
+    display: block;
+}
+
+.slide{
+    position: absolute;
+    width: 101%;
+    height: 101%;
+}
+
+.buttonsContainer__item{
+    position: absolute;
+    bottom: 450px;
+    cursor: pointer;
+
+}
+
+.leftButton{
+    left: 20px;
+}
+
+
+.rightButton{
+    right: 20px;
+}
+
+
+
+.dots{
+    position: absolute;
+    left: 50%;
+    bottom: 330px;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.dots-item{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 20%;
+    margin-right: 5px;
+    background-color: #cbcac7;
+    cursor: pointer;
+}
+
+
+
+.active {
+    background-color: #eee;
 }
